@@ -1,11 +1,5 @@
 PODS:
-  - BCHUtils (1.0.0):
-    - BCHUtils/Diff (= 1.0.0)
-    - BCHUtils/Dispatch (= 1.0.0)
-    - BCHUtils/Optional (= 1.0.0)
-  - BCHUtils/Diff (1.0.0)
-  - BCHUtils/Dispatch (1.0.0)
-  - BCHUtils/Optional (1.0.0)
+  - BCHUtils (1.0.0)
   - Nimble (5.1.1)
 
 DEPENDENCIES:
@@ -17,7 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  BCHUtils: 02ffaeaacccaf5f97e39182134d4352c857738c7
+  BCHUtils: fc740b9ee25024c36365828fd1330fa012d59993
   Nimble: 415e3aa3267e7bc2c96b05fa814ddea7bb686a29
 
 PODFILE CHECKSUM: 5cc9dcdfa8ff22d6889369f569f079afca7a45c8

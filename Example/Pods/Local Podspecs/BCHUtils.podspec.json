@@ -18,23 +18,5 @@
     "osx": "10.10"
   },
   "requires_arc": true,
-  "source_files": "Source/**/*",
-  "subspecs": [
-    {
-      "name": "Diff",
-      "source_files": [
-        "Source/Diff/*",
-        "Source/Dictionary/Dictionary+SequenceMap.swift",
-        "Source/SequenceType/SequenceType+Find.swift"
-      ]
-    },
-    {
-      "name": "Dispatch",
-      "source_files": "Source/Dispatch/*"
-    },
-    {
-      "name": "Optional",
-      "source_files": "Source/Optional/*"
-    }
-  ]
+  "source_files": "Source/**/*"
 }
