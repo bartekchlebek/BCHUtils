@@ -2,9 +2,9 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 
-target 'SwiftHelpers_Tests' do
-  pod 'SwiftHelpers', :path => '../'
-  pod 'Nimble', :git => 'https://github.com/norio-nomura/Nimble', :branch => 'swift3-beta-6'
+target 'BCHUtilsDemoTests' do
+  pod 'BCHUtils', :path => '../'
+  pod 'Nimble'
 end
 
 post_install do |installer|

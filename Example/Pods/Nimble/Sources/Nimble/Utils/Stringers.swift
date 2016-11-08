@@ -2,15 +2,17 @@ import Foundation
 
 
 internal func identityAsString(_ value: Any?) -> String {
-    if let value = value {
+    let anyObject: AnyObject?
+#if os(Linux)
+    anyObject = value as? AnyObject
+#else
+    anyObject = value as AnyObject?
+#endif
+    if let value = anyObject {
         return NSString(format: "<%p>", unsafeBitCast(value, to: Int.self)).description
     } else {
         return "nil"
     }
-}
-
-internal func classAsString(_ cls: AnyClass) -> String {
-    return NSStringFromClass(cls)
 }
 
 internal func arrayAsString<T>(_ items: [T], joiner: String = ", ") -> String {

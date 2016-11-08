@@ -1,6 +1,6 @@
 import Dispatch
 
-private let syncQueue = DispatchQueue(label: "com.SwiftHelpers.Dispatch.CancellableSyncQueue")
+private let syncQueue = DispatchQueue(label: "com.BCHUtils.Dispatch.CancellableSyncQueue")
 
 public final class CancelationToken {
 	fileprivate var cancelled = false
